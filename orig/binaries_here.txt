@@ -1,0 +1,4 @@
+Place the following binaries here
+
+halo3_dllcache_play.pdb
+halo3_dllcache_play.dll

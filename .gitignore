@@ -1,0 +1,5 @@
+/build
+.ninja_log
+build.ninja
+compiler/
+objdiff.json

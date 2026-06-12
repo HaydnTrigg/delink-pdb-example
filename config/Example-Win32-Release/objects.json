@@ -1,0 +1,10 @@
+{
+    "program": {
+        "progress_category": "program",
+        "cflags": "program",
+        "objects": {
+            // match up source code to dumped objects here
+            "helloworld.cpp": "0000_helloworld.obj"
+        }
+    }
+}

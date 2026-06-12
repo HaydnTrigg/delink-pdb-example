@@ -1,0 +1,73 @@
+{
+    "progress_categories": {
+        "program": "Program"
+    },
+    "compiler": "compiler\\x64\\cl.exe",
+    "compiler_root": "compiler",
+    "asflags": [],
+    "ldflags": [],
+    "cflags": {
+        "default": {
+            "flags": [
+                "/DDECOMP"
+            ]
+        },
+        "program": {
+            "base": "default",
+            "flags": 
+            [
+                "-c",
+                "-ZI",
+                "-JMC",
+                "-nologo",
+                "-W3",
+                "-WX-",
+                "-diagnostics:column",
+                "-sdl",
+                "-Od",
+                "-D_DEBUG",
+                "-D_CONSOLE",
+                "-D_UNICODE",
+                "-DUNICODE",
+                "-Gm-",
+                "-EHs",
+                "-EHc",
+                "-RTC1",
+                "-MDd",
+                "-GS",
+                "-fp:precise",
+                "-Zc:wchar_t",
+                "-Zc:forScope",
+                "-Zc:inline",
+                "-std:c++20",
+                "-permissive-",
+                //"-FoA:\\Projects\\Project3\\TEST\\x64\\Debug\\",
+                //"-FdA:\\Projects\\Project3\\TEST\\x64\\Debug\\vc145.pdb",
+                "-external:W3",
+                "-Gd",
+                "-TP",
+                "-FC",
+                "-errorreport:prompt",
+                // "-I\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\include\"",
+                // "-I\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\atlmfc\\include\"",
+                // "-I\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Auxiliary\\VS\\include\"",
+                // "-I\"C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.28000.0\\ucrt\"",
+                // "-I\"C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.28000.0\\um\"",
+                // "-I\"C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.28000.0\\shared\"",
+                // "-I\"C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.28000.0\\winrt\"",
+                // "-I\"C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.28000.0\\cppwinrt\"",
+                // "-I\"C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8.1\\Include\\um\"",
+                // "-external:I\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\include\"",
+                // "-external:I\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\atlmfc\\include\"",
+                // "-external:I\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Auxiliary\\VS\\include\"",
+                // "-external:I\"C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.28000.0\\ucrt\"",
+                // "-external:I\"C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.28000.0\\um\"",
+                // "-external:I\"C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.28000.0\\shared\"",
+                // "-external:I\"C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.28000.0\\winrt\"",
+                // "-external:I\"C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.28000.0\\cppwinrt\"",
+                // "-external:I\"C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8.1\\Include\\um\"",
+                "-X"
+            ]
+        }
+    }
+}
